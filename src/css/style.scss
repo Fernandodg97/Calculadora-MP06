@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, #f06291, #fffde7);
+  &.dark {
+    background: linear-gradient(45deg, #f0be62, #fffde7);
+  }
+}
+.calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(187, 130, 130);
+  background-color: #fff;
+  #display {
+    color: #f8fafb;
+    background: rgb(150, 172, 238);
+    margin: 40px 0 10px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 5px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+  }
+  #equal {
+    height: 130px;
+    border-radius: 5px;
+  }
+  #clear {
+    background-color: #ffd5d8;
+    color: #fc4552;
+  }
+  .btn-number {
+    background-color: #c3eaff;
+    color: #000000;
+    font-weight: 600;
+  }
+  .btn-operator {
+    background-color: #ffd0fb;
+    color: #f967f3;
+  }
+  .btn-equal {
+    background-color: #adf9e7;
+    color: #000;
+  }
+  //*Dark Theme*//
+  &.dark {
+    background-color: #1b1b1b;
+    box-shadow: 0 0 30px rgb(178, 187, 130);
+    #display {
+      color: #0a1e23;
+      background: rgb(67, 206, 90);
+    }
+    #clear {
+      color: #fff;
+      background-color: #4c35aa;
+    }
+    .btn-number {
+      color: black;
+      background-color: #8efda6;
+      font-weight: 600;
+    }
+    .btn-operator {
+      color: #aa00a4;
+      background-color: #f0db4f;
+    }
+    .btn-equal {
+      background-color: #f23b00;
+      color: #fff;
+    }
+  }
+}
+.theme-toggler {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  &::before {
+    content: "Dark";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    font-size: 9px;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #333;
+    z-index: -1;
+  }
+}
+.active {
+  color: #333;
+  &::before {
+    content: "off";
+    font-size: 12px;
+    background-color: #fff;
+  }
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 10%;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

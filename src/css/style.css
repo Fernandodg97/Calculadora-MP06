@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, #f06291, #fffde7);
+}
+.container.dark {
+  background: linear-gradient(45deg, #f0be62, #fffde7);
+  background: linear-gradient(135deg, #1A1A1A, #39CCCC, #00FF7F);
+}
+
+.calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.calculator #display {
+  color: #f8fafb;
+  background: rgb(150, 172, 238);
+  margin: 40px 0 10px;
+  padding: 10px;
+  height: 60px;
+  border-radius: 5px;
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.calculator #equal {
+  height: 130px;
+  border-radius: 5px;
+}
+.calculator #clear {
+  background-color: #ffd5d8;
+  color: #fc4552;
+}
+.calculator .btn-number {
+  background-color: #c3eaff;
+  color: #000000;
+  font-weight: 600;
+}
+.calculator .btn-operator {
+  background-color: #ffd0fb;
+  color: #f967f3;
+}
+.calculator .btn-equal {
+  background-color: #adf9e7;
+  color: #000;
+}
+.calculator.dark {
+  background-color: #1b1b1b;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+.calculator.dark #display {
+  color: #FFFFFF;
+  background: #00B300;
+}
+.calculator.dark #clear {
+  color: #FFFFFF;
+  background-color: #4C35AA;
+}
+.calculator.dark .btn-number {
+  color: #FFFFFF;
+  background-color: #39CCCC;
+  font-weight: 600;
+}
+.calculator.dark .btn-operator {
+  color: #FFFFFF;
+  background-color: #FF4136;
+}
+.calculator.dark .btn-equal {
+  background-color: #00FF7F;
+  color: #000000;
+}
+
+.theme-toggler {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-toggler::before {
+  content: "Dark";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  font-size: 9px;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #333;
+  z-index: -1;
+}
+
+.active {
+  color: #333;
+}
+.active::before {
+  content: "off";
+  font-size: 12px;
+  background-color: #fff;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 10%;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
