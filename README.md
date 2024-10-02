@@ -25,6 +25,7 @@
     <p>Puedes ver la calculadora en acción en el siguiente enlace: <a href="https://calculadora-mp06.netlify.app/">Calculadora MP06</a>.</p>
     <h2>Autor</h2>
     <p>Fernando DG</p>
+    <h1>EN</h1>
     <h1>README - Web Calculator (MP06)</h1>
     <p>This project is a <strong>web calculator</strong> created as part of the course <strong>MP06 - Development in Client Environments</strong>. It uses <strong>HTML</strong>, <strong>SCSS</strong>, and <strong>TypeScript</strong> to develop an interactive and adaptable interface.</p>
     <h2>Description</h2>
