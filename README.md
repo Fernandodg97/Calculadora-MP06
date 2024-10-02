@@ -1,19 +1,35 @@
-README - Calculadora Web (MP06)
-Este proyecto es una calculadora web creada como parte de la asignatura MP06 - Desarrollo en Entornos de Cliente. Utiliza HTML, SCSS y TypeScript para desarrollar una interfaz interactiva y adaptable.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Calculadora Web (MP06)</title>
+</head>
+<body>
+    <h1>README - Calculadora Web (MP06)</h1>
+  
+    <p>Este proyecto es una <strong>calculadora web</strong> creada como parte de la asignatura <strong>MP06 - Desarrollo en Entornos de Cliente</strong>. Utiliza <strong>HTML</strong>, <strong>SCSS</strong> y <strong>TypeScript</strong> para desarrollar una interfaz interactiva y adaptable.</p>
 
-Descripción
-La calculadora permite realizar operaciones básicas como:
+    <h2>Descripción</h2>
+    <p>La calculadora permite realizar operaciones básicas como:</p>
+    <ul>
+        <li>Suma</li>
+        <li>Resta</li>
+        <li>Multiplicación</li>
+        <li>División</li>
+    </ul>
 
-Suma
-Resta
-Multiplicación
-División
-Tecnologías
-HTML: Estructura de la página.
-SCSS: Diseño estilizado.
-TypeScript: Lógica y validación de las operaciones.
-Demo
-Puedes ver la calculadora en acción en el siguiente enlace: Calculadora MP06.
+    <h3>Tecnologías</h3>
+    <ul>
+        <li><strong>HTML</strong>: Estructura de la página.</li>
+        <li><strong>SCSS</strong>: Diseño estilizado.</li>
+        <li><strong>TypeScript</strong>: Lógica y validación de las operaciones.</li>
+    </ul>
 
-Autor
-Fernando DG
+    <h2>Demo</h2>
+    <p>Puedes ver la calculadora en acción en el siguiente enlace: <a href="https://calculadora-mp06.netlify.app/">Calculadora MP06</a>.</p>
+
+    <h2>Autor</h2>
+    <p>Fernando DG</p>
+</body>
+</html>
