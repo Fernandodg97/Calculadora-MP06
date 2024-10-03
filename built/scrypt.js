@@ -34,13 +34,20 @@ buttons.forEach(buttons => {
             //Si la pantalla esta vacia y pulsas igual no hace nada.
         }
         else if (calculos == "" && buttons.id == "equal") {
-            calculos = "Null";
+            null;
             //Si pasan 2s se borra el contenido de pantalla.
             setTimeout(() => (calculos = ""), 2000);
             //Añade a la pantalla el id del boton.
         }
         else {
             calculos += buttons.id;
+        }
+        //Si la pantalla supera 16 carcteres
+        if (calculos.length > 16) {
+            display.classList.add("scroll");
+        }
+        else {
+            display.classList.remove("scroll");
         }
         display.innerText = calculos;
     });
