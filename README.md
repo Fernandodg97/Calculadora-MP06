@@ -43,7 +43,7 @@
         <li><strong>TypeScript</strong>: Logic and validation of the operations.</li>
     </ul>
     <h2>Demo</h2>
-    <p>You can see the calculator in action at the following link: <a href="https://calculadora-mp06.netlify.app/">Calculator MP06</a> or <a href="https://fernandodg97.github.io/Calculadora-MP06/">Calculadora MP06 (GitHub).</p>
+    <p>You can see the calculator in action at the following link: <a href="https://calculadora-mp06.netlify.app/">Calculator MP06</a> or <a href="https://fernandodg97.github.io/Calculadora-MP06/">Calculator MP06 (GitHub).</p>
     <h2>Author</h2>
     <p>Fernando DG</p>
 </body>
