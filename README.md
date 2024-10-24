@@ -22,7 +22,7 @@
         <li><strong>TypeScript</strong>: Lógica y validación de las operaciones.</li>
     </ul>
     <h2>Demo</h2>
-    <p>Puedes ver la calculadora en acción en el siguiente enlace: <a href="https://calculadora-mp06.netlify.app/">Calculadora MP06 (Externo)</a> o en <a href="https://fernandodg97.github.io/Calculadora-MP06/">Calculadora MP06 (GitHub)</p>
+    <p>Puedes ver la calculadora en acción en el siguiente enlace: <a href="https://calculadora-mp06.netlify.app/">Calculadora MP06 (Externo)</a> o en <a href="https://fernandodg97.github.io/Calculadora-MP06/">Calculadora MP06 (GitHub).</p>
     <h2>Autor</h2>
     <p>Fernando DG</p>
     <h1>ENG</h1>
@@ -43,7 +43,7 @@
         <li><strong>TypeScript</strong>: Logic and validation of the operations.</li>
     </ul>
     <h2>Demo</h2>
-    <p>You can see the calculator in action at the following link: <a href="https://calculadora-mp06.netlify.app/">Calculator MP06</a>.</p>
+    <p>You can see the calculator in action at the following link: <a href="https://calculadora-mp06.netlify.app/">Calculator MP06</a> or <a href="https://fernandodg97.github.io/Calculadora-MP06/">Calculadora MP06 (GitHub).</p>
     <h2>Author</h2>
     <p>Fernando DG</p>
 </body>
